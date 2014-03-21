@@ -9,7 +9,7 @@ public class PathwayAnalysis {
 	public void overRepresentationAnalysis (ArrayList<ConsolidatedPathwayRecord> pathways, int numGenesWithVariants){
 		//find the proportion of genes which passed the mutation significance filter in each pathway
 		//find the average ratio of genes in a pathway to total genes with variants
-		//this.pathways = a list of pathways which have a higher than average ratio of genes passing the mutation significance filter to genes not passing the filter
+		//this.pathways = a list of pathways which have a high ratio of genes passing the mutation significance filter to genes not passing the filter, as tested by the hypergeometric test
 	}
 	public ArrayList<ConsolidatedPathwayRecord> meanFunctionalClassScoring (ArrayList<ConsolidatedPathwayRecord> pathways, float cutoff) {
 		int numPathways = pathways.size();
