@@ -17,6 +17,7 @@ public class GenesToPathways {
 	}
 	public void generateKeggInput() {
 		//Run BLAST against KEGG database to get KO numbers for each gene, in order to reference KEGG pathways.
+		//actually an easier way to get the KO identifiers is to convert Gene Ontology terms into UniProt IDs using Ensembl Biomart, and then KEGG has a tool on their website to convert UniProt ID to Kegg Ontology identifiers
 	}
 	public void retreivePathwaysFromKegg() {
 		//get the pathways that each gene is related to
